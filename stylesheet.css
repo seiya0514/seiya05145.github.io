@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+header{
+    height:65px;
+    background-color:rgba(192,192,192,0.99);
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    width:100%;
+}
+.header-container h1{
+    text-align: center;
+    font-weight:normal;
+    font-size:35px;
+    line-height: 10px;
+    opacity:0.7;
+}
+.main{
+    background-image:url(../background.jpg);
+    background-size:cover;
+    height:435px;
+    color:black;
+}
+.main-container {
+    
+    margin:0 auto;
+    background-color: rgba(255, 255, 255, 0.206);
+    height:435px;
+    margin-top: 65px;
+    opacity:0.7;
+}
+.main-container h1{
+    text-align:center;
+    padding-top: 80px;
+    font-size:40px;
+    font-weight:bold;
+    letter-spacing: 3px;
+}
+.main-container p{
+    text-align: center;
+}
+.message{
+    height:400px;
+}
+.message-container{
+    margin:0 auto;
+    width:100%;
+    text-align:center;
+    height:400px;
+}
+.message-container h1{
+    border-bottom:1px solid grey;
+}
+.message-container p {
+    float:left;
+    padding-left:30px;
+    text-align:left;
+
+}
+.message-icon{
+    font-size:25px;
+
+}
+.seiya{
+    margin-left: 70px;
+}
+.b p{
+    text-align: left;
+    float:left;
+    left:0;
+    margin:0;
+    padding:30px 0 200px 20px;
+}
+.b{
+    height:150px;
+}
+.c{
+    height:100px;
+    width:100%
+
+}
+.insta_btn2{/*ボタンの下地*/
+    color: #FFF;/*文字・アイコン色*/
+    border-radius: 7px;/*角丸に*/
+    position: relative;
+    display: inline-block;
+    height: 50px;/*高さ*/
+    width: 190px;/*幅*/
+    text-align: center;/*中身を中央寄せ*/
+    font-size: 25px;/*文字のサイズ*/
+    line-height: 50px;/*高さと合わせる*/
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+    overflow: hidden;/*はみ出た部分を隠す*/
+    text-decoration:none;/*下線は消す*/
+  }
+  
+  .insta_btn2:before{/*グラデーション②*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;/*全体を覆う*/
+    height: 100%;/*全体を覆う*/
+    background: -webkit-linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+    background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
+  }
+  
+  .insta_btn2 .fa-instagram{/*アイコン*/
+    font-size: 35px;/*アイコンサイズ*/
+    position: relative;
+    top: 4px;/*アイコン位置の微調整*/
+  }
+  
+  .insta_btn2 span {/*テキスト*/
+    display:inline-block;
+    position: relative;
+    transition: .5s;
+  }
+  
+  .insta_btn2:hover span{/*ホバーで一周回転*/
+    -webkit-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+  }
+  .c p{
+      color:black;
+  }
