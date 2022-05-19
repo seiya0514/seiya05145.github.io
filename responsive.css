@@ -1,0 +1,31 @@
+@media (max-width:1000px){
+.header-container h1{
+    text-align:center;
+}
+}
+@media (max-width:670px){  
+    .header-container h1{
+        text-align: center;
+    }
+    .main-container h1{
+        text-align:left;
+        font-size:23px;    
+    }
+    .main-container p{
+        text-align:left;
+        
+    }
+    .message-container p{
+        padding-left:0px;
+    }
+    .message-icon{
+        padding-left:30px;
+    }
+    .c a{
+        width:100%;
+        margin-bottom: 150px;
+    }
+    .b a{
+        padding:30px 0 20px 0;
+    }
+}
